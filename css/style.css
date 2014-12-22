@@ -1,0 +1,331 @@
+@font-face {
+	font-family: "Dancing Script";
+	src: url(../fonts/dancing-script.otf);
+}
+
+@font-face {
+	font-family: "Titillium Light";
+	src: url(../fonts/titillium-light.otf);
+}
+
+@font-face {
+	font-family: "Titillium Regular";
+	src: url(../fonts/titillium-regular.otf);
+}
+
+@font-face {
+	font-family: "Titillium Thin";
+	src: url(../fonts/titillium-thin.otf);
+}
+
+@font-face {
+	font-family: "Segoe Print";
+	src: url(../fonts/segoe-print.ttf);
+}
+
+@font-face {
+	font-family: "Roboto Light";
+	src: url(../fonts/roboto-light.ttf);
+}
+
+body {
+	font-family: "Titillium Regular";
+	font-size: 15px;
+	color: #A8A8A8;
+}
+
+/*REMOVER UNA VEZ INSERTADO EL HEADER Y EL FOOTER*/
+header>img,
+footer>img {
+	width: 100%;
+}
+/*REMOVER UNA VEZ INSERTADO EL HEADER Y EL FOOTER*/
+
+.container {
+	width: 960px;
+}
+
+#home {
+	padding: 20px 0 0;
+	background-image: url(../img/banner_1.jpg);
+	position: relative;
+	color: #fff;
+}
+
+.font-dancing-script {
+	font-family: "Dancing Script";
+}
+
+.font-44 {
+	font-size: 44px;
+}
+
+.dark-text-shadow {
+	text-shadow: -2px -2px 6px rgba(0,0,0,0.5);
+}
+
+.dark-container {
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	padding: 20px 30px;
+	color: #fff;
+	font-family: "Roboto Light";
+}
+
+a {
+	color: #7E9BD3;
+}
+
+.dark-container .banner {
+	background-color: #323232;
+	color: #C4C4C4;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px -30px;
+}
+
+.dark-container p {
+	margin-bottom: 15px;
+}
+
+.two-lines-icon {
+	margin-top: 10px;
+}
+
+.btn-orange {
+	text-shadow: -1px -1px 6px rgba(0,0,0,0.5);
+	font-family: "Dancing Script";
+	background-color: #ff9b29;
+	color: #fff !important;
+	padding: 10px 0;
+	text-align: center;
+	border-bottom: 5px solid #b86114;
+	font-size: 36px;
+	width: 100%;
+	display: block;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.btn-orange:hover {
+	text-decoration: none;
+}
+
+section.white {
+	background-color: #fff;
+	padding: 30px 0;
+}
+
+.breadcrumb {
+	background-color: transparent;
+}
+
+.breadcrumb a {
+	text-decoration: underline;
+}
+
+.gray-title {
+	background-color: #F5F5F5;
+	padding: 10px;
+	color: #5F5F5F;
+	font-size: 18px;
+	font-weight: bold;
+	width: 100%;
+}
+
+.resumed-list {
+	list-style: none;
+	-webkit-padding-start: 0;
+}
+
+.resumed-list li {
+	padding: 10px 10px 10px 25px;
+	border-bottom: 1px dashed #C9C9C9;
+	position: relative;
+}
+
+.resumed-list li:after {
+	content: " ";
+	background-image: url(../img/more_icon.png);
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -7px;
+}
+
+.orange-link {
+	color: #F99442;
+}
+
+.post {
+	padding: 0 0 10px;
+	border-bottom: 1px dashed #C9C9C9;
+	line-height: 16px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.promotion {
+	background-image: url(../img/img_bg_1.jpg);
+	font-family: "Titillium Light";
+	width: 289px;
+	height: 213px;
+	margin-top: 10px;
+	padding: 20px;
+	color: #fff;
+}
+
+.promotion>span {
+	font-size: 22px;
+	line-height: 20px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.promotion .check-list {
+	list-style-image: url(../img/check_icon.png);
+	-webkit-padding-start: 25px;
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+.black-title {
+	font-family: "Segoe Print";
+	background-color: #2D2D2D;
+	padding: 10px 20px;
+	width: 100%;
+	color: #fff;
+	line-height: 48px;
+	white-space: nowrap;
+}
+
+.black-title a {
+	line-height: 42px;
+}
+
+section.blue {
+	background: -webkit-linear-gradient(#63ACCF, #A8D5EA); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#63ACCF, #A8D5EA); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#63ACCF, #A8D5EA); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#63ACCF, #A8D5EA); /* Standard syntax */
+	padding: 30px 0;
+	color: #fff;
+	font-family: "Titillium Light";
+}
+
+.blue-box {
+	background-color: #7BBAD9;
+	padding: 20px 30px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin: 20px 0;
+}
+
+.main-title {
+	margin-top: 5px;
+	border-bottom: 1px solid #DBDBDB;
+	padding-bottom: 15px;
+	color: #616161;
+}
+
+.black-text {
+	color: #616161;
+}
+
+.location-view {
+	position: relative;
+}
+
+.location-view .days {
+	min-width: 180px;
+	position: absolute;
+	left: 0;
+	top: 20px;
+	background-color: #fff;
+	padding: 5px 15px;
+	color: #737373;
+	height: 35px;
+}
+
+.font-18 {
+	font-size: 18px;
+}
+
+.location-view .price {
+	min-width: 180px;
+	font-family: "Titillium Light";
+	position: absolute;
+	left: 0;
+	top: 55px;
+	background-color: #4E4E4E;
+	color: #fff;
+	padding: 5px 15px;
+	font-size: 20px;
+}
+
+.font-22 {
+	font-size: 22px;
+}
+
+.location-view .wildlife {
+	font-family: "Titillium Light";
+	background-color: rgba(0,0,0,0.4);
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	padding: 10px 20px;
+	font-size: 12px;
+	line-height: 26px;
+}
+
+.location-view .wildlife img {
+	margin: 0 5px;
+}
+
+.details {
+	background-color: #EEEEEE;
+	padding: 10px;
+	width: 100%;
+}
+
+.details .social {
+	background-color: #F5F5F5;
+	width: auto;
+	text-align: center;
+	padding: 15px;
+	display: inline-block;
+	margin: 0 -1px;
+	width: 53px;
+	height: 53px;
+	line-height: 18px;
+}
+
+.btn-green {
+	font-family: "Titillium Regular";
+	background-color: #66A121;
+	color: #fff !important;
+	padding: 10px 0;
+	text-align: center;
+	border-bottom: 5px solid #4B8514;
+	font-size: 20px;
+	width: 100%;
+	display: block;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.btn-green:hover {
+	text-decoration: none;
+}
+
+.combo {
+	margin-top: 40px;
+}
