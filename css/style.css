@@ -329,3 +329,59 @@ section.blue {
 .combo {
 	margin-top: 40px;
 }
+
+.orange-hr {
+	border-color: #AF5F1A;
+}
+
+.orange-checklist {
+	list-style-image: url(../img/orange_check.png);
+	-webkit-padding-start: 25px;
+}
+
+.segoe-print-font {
+	font-family: "Segoe Print";
+}
+
+.green-arrow-down {
+	margin-bottom: -70px;
+}
+
+.video-box {
+	box-shadow: 0 0 10px 2px #EDEDED;
+	padding: 10px;
+}
+
+.tag-box {
+	position: relative;
+	margin-left: 30px;
+	border-left: 1px dashed #82BFDB;
+}
+
+.tag {
+	position: relative;
+	height: 70px;
+	margin-bottom: 15px;
+	padding-left: 40px;
+	background-color: #F5F5F5;
+	font-family: "Roboto Light";
+	font-size: 16px;
+}
+
+.tag .icon {
+	position: absolute;
+	top: 0;
+	left: -60px;
+}
+
+.tag .content {
+	padding: 10px;
+	height: 70px;
+}
+
+section.orange {
+	background-image: url(../img/carousel_section_background.jpg);
+	padding: 30px 0;
+	color: #fff;
+	min-height: 440px;
+}
