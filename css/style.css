@@ -678,24 +678,113 @@ section.gray-mosaic .well {
 }
 
 .wishlist .item {
+	position: relative;
 	height: 160px;
 	background-color: #F7F7F7;
 	color: #883638;
 	width: 100%;
+	padding-left: 200px;
+	margin-bottom: 10px;
 }
 
 .wishlist .item .pic {
-	display: inline-block;
+	position: absolute;
+	width: 200px;
+	left: 0;
+	top: 0;
+}
+
+.wishlist .item .pic img {
+	width: 100%;
 }
 
 .wishlist .item .content {
 	display: inline-block;
-	padding: 10px;
+	width: 100%;
+	padding: 15px 20px;
 }
 
 .wishlist .item .content .title {
-	margin: -10px -10px 10px;
+	margin: -15px -20px 15px;
 	padding: 10px;
 	border-bottom: 1px solid #E5E5E5;
-	width: 100%;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.wishlist .item .content .title span {
+	font-weight: normal;
+	float: right;
+	font-size: 22px;
+	font-family: "Titillium Light";
+	line-height: 26px;
+}
+
+.wishlist .item .content .title .days {
+	background-color: #69DDF4;
+	color: #fff;
+	padding: 0 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 10px;
+	font-size: 20px;
+	line-height: 29px;
+}
+
+.wishlist .item .content .status {
+	font-weight: bold;
+}
+
+.wishlist .item .content .available {
+	color: #609b2b;
+}
+
+.wishlist .item .content .paid {
+	color: #585858;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.dropdown:after {
+	content: " ";
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 0; 
+	height: 0; 
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid #616161;
+}
+
+.dropdown select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: #fff;
+	min-width: 110px;
+	border: 1px solid #D0D0D0;
+	padding: 5px 20px 5px 10px;
+	color: #616161;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size: 14px;
+}
+
+select:focus {
+	outline: 0;
+}
+
+select.dropdown option {
+	color: #858585;
+}
+
+.btn-orange.checkout {
+	font-family: "Titillium Light";
+	text-shadow: 0 2px 1px rgba(0,0,0,0.5);
+	font-size: 26px;
 }
