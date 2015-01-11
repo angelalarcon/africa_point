@@ -1230,3 +1230,27 @@ select.calendar {
 	-moz-border-radius: 0 10px 10px 0;
 	-webkit-border-radius: 0 10px 10px 0;
 }
+
+#honeymoon-registry {
+	padding: 20px 0 0;
+	background-image: url(../img/banner_2.jpg);
+	position: relative;
+	color: #fff;
+}
+
+.quote {
+	font-family: "Titillium Light";
+	padding: 168px 0 30px;
+}
+
+.rings {
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	left: -30px;
+}
+
+.gray-well .divider {
+	border-top: 1px solid #e8e8e8;
+	margin: 20px -20px;
+}
