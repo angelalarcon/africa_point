@@ -41,10 +41,6 @@ footer>img {
 }
 /*REMOVER UNA VEZ INSERTADO EL HEADER Y EL FOOTER*/
 
-.container {
-	width: 960px;
-}
-
 #home {
 	padding: 20px 0 0;
 	background-image: url(../img/banner_1.jpg);
@@ -330,6 +326,11 @@ section.blue {
 	margin-top: 40px;
 }
 
+.combo p,
+.post p {
+	font-family: "Titillium Light";
+}
+
 .orange-hr {
 	border-color: #AF5F1A;
 }
@@ -432,6 +433,12 @@ section.orange {
 	z-index: 1;
 }
 
+.couples-tag .profile-pic {
+	width: 110%;
+	position: relative;
+	z-index: 1;
+}
+
 .profile-title {
 	margin: 0 -15px;
 	font-size: 20px;
@@ -444,6 +451,7 @@ section.orange {
 
 .location-img>img {
 	margin-top: -30px;
+	width: 100%;
 }
 
 .location-img .title {
@@ -484,11 +492,6 @@ section.orange {
 	padding: 0;
 }
 
-.profile-title-big {
-	margin: 40px -5px;
-	font-size: 20px;
-}
-
 menu {
 	width: 100%;
 	position: fixed;
@@ -499,6 +502,7 @@ menu {
 	margin: 0;
 	font-family: "Titillium Light";
 	z-index: 10;
+	height: 80px;
 }
 
 menu .category {
@@ -577,6 +581,8 @@ section.gray .black-text {
 
 .bordered-img {
 	border: 4px solid #fff;
+	display: inline-block;
+	position: relative;
 }
 
 .full-breadcrumb {
@@ -591,6 +597,7 @@ section.gray .black-text {
 	padding: 20px 10px;
 	width: 100%;
 	margin-bottom: 20px;
+	font-family: "Titillium Light";
 }
 
 .hr-margin {
@@ -602,9 +609,10 @@ section.gray .black-text {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	padding: 10px;
+	padding: 20px 10px;
 	color: #AEAEAE;
 	margin: 10px 0 20px;
+	font-family: "Titillium Light";
 }
 
 .full-width {
@@ -617,20 +625,25 @@ section.gray .black-text {
 	-moz-border-radius: 0 0 10px 10px;
 	-webkit-border-radius: 0 0 10px 10px;
 	padding: 10px;
+	margin-top: 20px;
 }
 
 .hotel .detail {
 	border: 1px solid #DCDCDC;
 	margin: 0 -11px;
-	padding: 10px;
+	padding: 20px 10px;
 }
 
 .hotel .pic {
-	margin: -10px -10px 20px;
+	margin: -10px -10px 30px;
 }
 
 .hotel .pic img {
 	width: 100%;
+}
+
+.hotel p {
+	margin-bottom: 20px;
 }
 
 .btn-box {
@@ -665,6 +678,7 @@ section.gray-mosaic .well {
 	color: #CBAC6B;
 	background-color: #FDF8E4;
 	border-color: #FCEED3;
+	margin: 10px 0;
 }
 
 .gray-well {
@@ -672,12 +686,17 @@ section.gray-mosaic .well {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	background-color: #F7F7F7;
-	padding: 20px;
+	padding: 20px 30px;
+	color: #616161;
 }
 
 .gray-well hr {
 	border-color: #CFCFCF;
 	margin: 10px 0;
+}
+
+.wishlist {
+	margin-top: 20px;
 }
 
 .wishlist .item {
@@ -709,7 +728,7 @@ section.gray-mosaic .well {
 
 .wishlist .item .content .title {
 	margin: -15px -20px 15px;
-	padding: 10px;
+	padding: 10px 20px;
 	border-bottom: 1px solid #E5E5E5;
 	font-weight: bold;
 	font-size: 18px;
@@ -809,7 +828,7 @@ select.dropdown option {
 	font-family: "Titillium Light";
 	font-weight: normal;
 	line-height: 30px;
-	color: #B9B9B9;
+	color: #616161;
 }
 
 .well.gray p {
@@ -1044,7 +1063,7 @@ select.calendar {
 	background-color: #fff;
 }
 
-.tag {
+.tag-sticker {
 	background-color: #F7F7F7;
 	color: #AFAFAF;
 	padding: 10px;
@@ -1054,15 +1073,16 @@ select.calendar {
 	height: 50px;
 	font-size: 14px;
 	line-height: 26px;
+	margin-bottom: 10px;
 }
 
-.tag img {
+.tag-sticker img {
 	float: left;
 	margin-top: 5px;
 	margin-right: 10px;
 }
 
-.tag span {
+.tag-sticker span {
 	background-color: #fff;
 	color: #9BBF75;
 	padding: 2px 5px;
@@ -1253,4 +1273,465 @@ select.calendar {
 .gray-well .divider {
 	border-top: 1px solid #e8e8e8;
 	margin: 20px -20px;
+}
+
+.red-text {
+	color: #9A4038;
+}
+
+.destination {
+	margin: 10px 0 20px;
+}
+
+.destination p {
+	font-family: "Titillium Light";
+	font-size: 16px;
+}
+
+.font-titillium-light {
+	font-family: "Titillium Light";
+}
+
+.couples-tag .location-img {
+	margin-bottom: 0;
+}
+
+.couples-tag h4 {
+	margin: 0 -5px;
+	padding: 30px;
+	background-color: #f5f5f5;
+	color: #7D7D7D;
+	font-family: "Titillium Light";
+}
+
+.white.big {
+	padding: 70px 0;
+}
+
+.couples-tag .profile-title-big {
+	margin: 40px -5px;
+	font-size: 20px;
+	padding: 0;
+	background-color: transparent;
+}
+
+#profile-builder {
+	padding-top: 63px;
+}
+
+@media (min-width: 1170px) {
+	.container {
+		width: 960px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.dark-container {
+		font-size: 11px;
+	}
+	.dark-container .banner {
+		padding: 15px 10px;
+	}
+	.btn-orange {
+		font-size: 20px;
+		padding: 10px;
+	}
+	img {
+		min-width: 20px;
+	}
+	table img {
+		min-width: inherit;
+	}
+	.details .social img {
+		min-width: inherit;	
+	}
+	select.calendar {
+		min-width: inherit;
+	}
+	.profile-cover.cut .content .profile-pic {
+		margin-top: -150px;
+	}
+	.profile-cover .content .profile-pic {
+		margin-left: -100px;
+		width: 200px;
+	}
+	.payment-table tbody tr td {
+		padding: 10px;
+	}
+	.profile-cover .add-pic {
+		margin-top: -50px;
+	}
+	.set-up-text {
+		top: 100px;
+		width: 250px;
+		font-size: 22px;
+	}
+	.tag-sticker {
+		padding: 4px;
+		min-height: 62px;
+	}
+	.tag-sticker img {
+		width: 14px;
+		min-width: inherit;
+	}
+	.tab-style-on-responsive.nav-tabs.nav-justified>li>a {
+		height: 75px;
+		padding-top: 20px;
+	}
+	.fluid-text {
+		white-space: inherit;
+	}
+	.wishlist .item .content .dropdown select {
+		min-width: inherit;
+	}
+	.wishlist .item .content {
+		overflow-y: auto;
+		overflow-x: hidden;
+		height: 160px;
+	}
+}
+
+@media (max-width: 850px) {
+	.set-up-text {
+		top: 80px;
+		width: 250px;
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 768px) {
+	.btn-orange {
+		font-size: 24px;
+		padding: 10px;
+	}
+	.font-44 {
+		font-size: 30px;
+	}
+	.dark-container img {
+		min-width: 20px;
+	}
+	.gray-title {
+		text-align: center;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+	body {
+		font-size: 13px;
+	}
+	.btn-green {
+		font-size: 17px;
+		padding: 5px;
+	}
+	.text-left-under-768 {
+		text-align: left !important;
+	}
+	.profile-cover .content .profile-pic {
+		margin-left: -75px;
+		width: 150px;
+	}
+	.profile-cover.cut .content .profile-pic {
+		margin-top: -110px;
+	}
+	.profile-cover .content .title {
+		padding: 10px 0;
+	}
+	.payment-table tbody tr td img {
+		min-width: 100px;
+	}
+	.payment-table tbody tr td .dropdown select {
+		min-width: 100px;
+	}
+	.small-width-under-768px {
+		width: 25%;
+	}
+	.profile-cover .add-pic {
+		margin-top: -75px;
+	}
+	.set-up-text {
+		top: 30px;
+	}
+	.tag-sticker {
+		min-height: inherit;
+		height: 36px;
+	}
+	.tab-style-on-responsive.nav-tabs.nav-justified>li>a {
+		height: auto;
+		padding-top: 10px;
+	}
+	table img {
+		min-width: 10px;
+	}
+	.uncheck-feature.full-width {
+		margin: 0;
+		padding: 10px;
+		display: block;
+		line-height: 20px;
+	}
+	.uncheck-feature.pull-right.mini {
+		margin: 0;
+		padding: 10px;
+		display: block;
+		line-height: 20px;
+		float: none !important;
+	}
+}
+
+@media (max-width: 600px) {
+	.profile-cover.cut .content .profile-pic {
+		margin-top: -90px;
+	}
+	.profile-cover .content .profile-pic {
+		margin-left: -60px;
+		width: 120px;
+	}
+	#profile-builder .profile-cover .content .profile-pic {
+		margin-top: -120px;
+	}
+	.set-up-text {
+		width: 230px;
+		font-size: 17px;
+		padding: 0 10px;
+	}
+}
+
+@media (min-width: 600px) {
+	.show-under-600px {
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	.show-under-600px {
+		display: block;
+	}
+	.hide-under-600px {
+		display: none;
+	}
+	.full-width-under-600px {
+		width: 100%;
+	}
+	.dark-container {
+		font-size: 12px;
+	}
+	menu .category img {
+		width: 12px;
+		min-width: inherit;
+	}
+}
+
+@media (max-width: 550px) {
+	.btn-orange {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.full-width-under550px {
+		width: 100%;
+	}
+	.text-left-under550px {
+		text-align: left !important;
+	}
+	.profile-cover.cut .content .profile-pic {
+		margin-top: -80px;
+	}
+	.profile-cover .content .profile-pic {
+		margin-left: -50px;
+		width: 100px;
+	}
+	.profile-cover .content .title h1 {
+		font-size: 24px;
+	}
+	.profile-cover .content .title h4 {
+		font-size: 16px;
+	}
+	#profile-builder .profile-cover .content .profile-pic {
+		margin-top: -100px;
+	}
+	.profile-cover .add-pic {
+		margin-top: -65px;
+		width: 30px;
+		margin-left: -15px;
+	}
+	.set-up-text {
+		width: 210px;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 515px) {
+	.font-44 {
+		font-size: 24px;
+	}
+	.dark-container {
+		padding: 10px 15px;
+	}
+	.dark-container .banner {
+		margin: 10px -15px;
+	}
+	h1 {
+		font-size: 26px;
+	}
+	#profile-builder .profile-cover .content .profile-pic {
+		top: 0;
+		margin-top: 20px;
+		left: 15px;
+		margin-left: 0;
+	}
+	.profile-cover .add-pic {
+		margin-top: 55px;
+		top: 0;
+		margin-left: -15px;
+		left: 65px;
+	}
+	.set-up-text {
+		width: 330px;
+		padding-left: 140px;
+	}
+	.full-width-under-500px {
+		width: 100%;
+	}
+}
+
+@media (max-width: 475px) {
+	.details .social {
+		padding: 10px;
+		width: 40px;
+		height: 40px;
+	}
+	.btn-green {
+		font-size: 14px;
+		padding: 0px;
+	}
+	.location-view .days {
+		min-width: 160px;
+		top: 10px;
+		padding: 2px 10px;
+		height: 30px;
+	}
+	.location-view .price {
+		min-width: 160px;
+		top: 40px;
+		padding: 2px 10px;
+		font-size: 16px;
+	}
+	.location-view .price .font-22 {
+		font-size: 18px;
+	}
+	.location-view .wildlife {
+		padding: 5px;
+		line-height: 15px;
+	}
+	.gray-title {
+		font-size: 16px;
+	}
+	.payment-table tbody tr td img {
+		min-width: 80px;
+	}
+	.payment-table tbody tr td .dropdown select {
+		min-width: 80px;
+	}
+}
+
+@media (max-width: 450px) {
+	.details .social {
+		padding: 4px;
+		width: 30px;
+		height: 30px;
+	}
+	.btn-green {
+		font-size: 12px;
+		padding: 5px;
+		margin-left: -30px;
+		white-space: nowrap;
+		width: 70px;
+	}
+	.couples-form {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.rings {
+		position: absolute;
+		top: -20px;
+		margin-left: -30px;
+		left: 50%;
+	}
+	.couples-form .gray-well {
+		padding: 40px 30px;
+	}
+	.profile-cover .content .title {
+		padding: 5px 15px;
+		text-align: right;
+	}
+	.profile-cover.cut .content .profile-pic {
+		margin-top: -50px;
+		left: 10px;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 380px) {
+	.gray-title {
+		font-size: 14px;
+	}
+	.location-view .days {
+		min-width: 120px;
+		top: 5px;
+		padding: 0px 5px;
+		height: 25px;
+	}
+	.location-view .days .font-18 {
+		font-size: 16px;
+	}
+	.location-view .price {
+		min-width: 120px;
+		top: 30px;
+		padding: 0px 5px;
+		font-size: 14px;
+	}
+	.location-view .price .font-22 {
+		font-size: 16px;
+	}
+	.location-view .wildlife img {
+		margin: 0 1px;
+		max-width: 20px;
+	}
+	.profile-cover .content .title h1 {
+		font-size: 20px;
+	}
+	.profile-cover .content .title h4 {
+		font-size: 14px;
+	}
+	section.white {
+		padding: 10px 0;
+	}
+	.small-width-under-768px {
+		width: 41.66666667%;
+	}
+	menu .category {
+		font-size: 12px;
+	}
+	.logo {
+		margin: 15px 0;
+	}
+	.set-up-text {
+		width: 310px;
+		padding-left: 130px;
+		top: 10px;
+		font-size: 13px;
+	}
+	.uncheck-feature {
+		margin: 0;
+		padding: 10px;
+		display: block;
+		line-height: 20px;
+	}
+	.pack h4 {
+		font-size: 14px;
+	}
 }
