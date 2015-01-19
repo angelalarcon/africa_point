@@ -1389,6 +1389,22 @@ select.calendar {
 		overflow-x: hidden;
 		height: 160px;
 	}
+	.table.guests thead tr th {
+		white-space: nowrap;
+	}
+	.table.guests thead tr th:last-child {
+		padding: 11px 20px;
+	}
+	.table.payment-details img {
+		min-width: 10px;
+	}
+	.tag {
+		font-size: 14px;
+	}
+	.profile-title {
+		margin: 0 -15px 40px;
+		font-size: 16px;
+	}
 }
 
 @media (max-width: 850px) {
@@ -1396,6 +1412,19 @@ select.calendar {
 		top: 80px;
 		width: 250px;
 		font-size: 22px;
+	}
+	.location-img .title {
+		padding: 5px;
+		line-height: 16px;
+	}
+	.couple-box {
+		overflow: visible;
+		margin: 20px 10px;
+	}
+	.couple-box .profile-pic {
+		position: absolute;
+		left: -15px;
+		top: -30px;
 	}
 }
 
@@ -1481,6 +1510,30 @@ select.calendar {
 		line-height: 20px;
 		float: none !important;
 	}
+	.table.guests thead tr th {
+		white-space: nowrap;
+	}
+	.video-box {
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	.tag {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 650px) {
+	.wishlist .item .content .title {
+		font-size: 14px;
+	}
+	.wishlist .item .content .title span {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.wishlist .item .content .title .days {
+		font-size: 18px;
+		line-height: 26px;
+	}
 }
 
 @media (max-width: 600px) {
@@ -1524,6 +1577,24 @@ select.calendar {
 		width: 12px;
 		min-width: inherit;
 	}
+	.wishlist .item .content .title {
+		font-size: 12px;
+	}
+	.wishlist .item .content .title span {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.wishlist .item .content .title .days {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.wishlist .item .content {
+		padding: 15px 10px;
+		font-size: 12px;
+	}
+	.wishlist .item .content .dropdown select {
+		margin-left: -20px;
+	}
 }
 
 @media (max-width: 550px) {
@@ -1561,6 +1632,16 @@ select.calendar {
 	.set-up-text {
 		width: 210px;
 		font-size: 15px;
+	}
+	.wishlist .item .pic {
+		width: 150px;
+	}
+	.wishlist .item {
+		height: 120px;
+		padding-left: 150px;
+	}
+	.wishlist .item .content {
+		height: 120px;
 	}
 }
 
@@ -1636,6 +1717,16 @@ select.calendar {
 	.payment-table tbody tr td .dropdown select {
 		min-width: 80px;
 	}
+	.wishlist .item .pic {
+		width: 110px;
+	}
+	.wishlist .item {
+		height: 89px;
+		padding-left: 110px;
+	}
+	.wishlist .item .content {
+		height: 89px;
+	}
 }
 
 @media (max-width: 450px) {
@@ -1672,6 +1763,23 @@ select.calendar {
 		margin-top: -50px;
 		left: 10px;
 		margin-left: 0;
+	}
+	.table.guests thead tr th {
+		padding: 11px 5px;
+	}
+	.table.guests thead tr th:last-child {
+		padding: 11px 5px;
+	}
+	.tag {
+		font-size: 14px;
+	}
+	.tag .content {
+		padding: 5px;
+	}
+	.couple-box .btn-green {
+		width: 80%;
+		margin-left: 10%;
+		font-size: 18px;
 	}
 }
 
@@ -1733,5 +1841,19 @@ select.calendar {
 	}
 	.pack h4 {
 		font-size: 14px;
+	}
+	.wishlist .item {
+		height: auto;
+		padding: 10px;
+	}
+	.wishlist .item .pic {
+		width: 100%;
+		position: relative;
+	}
+	.wishlist .item .content {
+		height: auto;
+	}
+	#home {
+		margin-bottom: 20px;
 	}
 }
