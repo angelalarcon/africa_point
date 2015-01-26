@@ -9,6 +9,11 @@
 }
 
 @font-face {
+	font-family: "Bebas";
+	src: url(../fonts/bebas.ttf);
+}
+
+@font-face {
 	font-family: "Titillium Light";
 	src: url(../fonts/titillium-light.otf);
 }
@@ -1745,6 +1750,147 @@ a.yellow-text {
 	height: 40px;
 	display: inline-block;
 	margin-right: -1px;
+}
+
+section.white {
+	padding: 20px 0;
+	position: relative;
+}
+
+section.black {
+	background-color: #2D2D2D;
+	color: #fff;
+	padding: 20px 0;
+	font-family: "Titillium Light";
+}
+
+section.black .icon {
+	margin-right: 10px;
+}
+
+.go-top {
+	font-family: "Segoe Print";
+	display: inline-block;
+	float: right;
+	font-size: 16px;
+	color: #B4B4B4;
+	line-height: 50px;
+	position: relative;
+	padding-right: 40px;
+}
+
+.go-top:after {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-right: 1px solid #b4b4b4;
+	border-top: 1px solid #b4b4b4;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+	-webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+	transform: rotate(-45deg);
+	content: "";
+	top: 50%;
+	right: 10px;
+}
+
+.banner-box {
+	position: relative;
+	margin-bottom: 20px;
+	padding-bottom: 60px;
+	background-color: #EEEEEE;
+	min-height: 514px;
+}
+
+.banner-box .icon {
+	margin-right: 10px;
+}
+
+.banner-box .title {
+	font-family: "Bebas";
+	background-color: #2D2D2D;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 18px;
+}
+
+.banner-box .location {
+	background-color: #E1E1E1;
+	padding: 10px;
+	color: #E6323D;
+	font-size: 14px;
+	text-align: center;
+}
+
+.banner-box .location img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+.banner-box .location hr {
+	background-color: #C7C7C7;
+	height: 1px;
+	border-color: #fff;
+	margin: 10px -10px;
+}
+
+.banner-box .message {
+	background-color: #eee;
+	padding: 10px;
+	color: #5D5D5D;
+	font-size: 12px;
+}
+
+.banner-box .message .bulb {
+	margin-top: 8px;
+}
+
+.banner-box .button {
+	background-color: #fff;
+	padding: 20px 0;
+	text-align: center;
+	height: 60px;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+
+.banner-box .button a {
+	text-decoration: underline;
+	color: #9FBCF6;
+}
+
+.promo-box {
+	width: 100%;
+	min-height: 514px;
+	border: 1px solid #E6E6E6;
+	padding: 100px 10px;
+	text-align: center;
+	background-color: #FAFAFA;
+}
+
+.banner-box .location .message {
+	text-align: left;
+	margin: -10px;
+	min-height: 80px;
+}
+
+section.white .banner-box {
+	border: 1px solid #EDEDED;
+}
+
+.banner-box .location .message .bulb {
+	margin-right: 15px;
+}
+
+.white-well {
+	background-color: #fff;
+	padding: 20px 40px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin-bottom: 20px;
 }
 
 @media (min-width: 1170px) {
