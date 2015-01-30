@@ -1774,7 +1774,7 @@ section.black {
 	color: #fff;
 	padding: 20px 0;
 	font-family: "Titillium Light";
-	height: 70px;
+	overflow: hidden;
 }
 
 section.black .icon {
@@ -2199,6 +2199,10 @@ section.white .banner-box {
 	section.blue-animals .blue-message-box {
 		line-height: 20px;
 		padding: 10px 10px 10px 110px;
+	}
+	.full-width-under-650px {
+		width: 100%;
+		text-align: center !important;
 	}
 }
 
