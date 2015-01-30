@@ -1806,7 +1806,6 @@ section.black .icon {
 	margin-bottom: 20px;
 	padding-bottom: 60px;
 	background-color: #EEEEEE;
-	min-height: 514px;
 }
 
 .banner-box .icon {
@@ -1871,9 +1870,8 @@ section.black .icon {
 
 .promo-box {
 	width: 100%;
-	min-height: 514px;
 	border: 1px solid #E6E6E6;
-	padding: 100px 10px;
+	padding: 50px 10px;
 	text-align: center;
 	background-color: #FAFAFA;
 }
