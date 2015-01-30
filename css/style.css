@@ -1871,7 +1871,7 @@ section.black .icon {
 .promo-box {
 	width: 100%;
 	border: 1px solid #E6E6E6;
-	padding: 50px 10px;
+	padding: 90px 10px;
 	text-align: center;
 	background-color: #FAFAFA;
 }
@@ -1914,6 +1914,24 @@ section.white .banner-box {
 
 .banner-box .button a:hover {
 	color: #7E93BD;
+}
+
+.first-row {
+	min-height: 500px;
+}
+
+.second-row {
+	min-height: 413px;
+}
+
+.black a {
+	color: #fff;
+	padding: 20px 10px 25px;
+}
+
+.black a:hover {
+	text-decoration: none;
+	background: #222;
 }
 
 @media (min-width: 1170px) {
