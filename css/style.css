@@ -238,7 +238,7 @@ section.blue {
 }
 
 .main-title {
-	margin-top: 5px;
+	margin-top: 10px;
 	border-bottom: 1px solid #DBDBDB;
 	padding-bottom: 15px;
 	color: #616161;
@@ -1774,10 +1774,18 @@ section.black {
 	color: #fff;
 	padding: 20px 0;
 	font-family: "Titillium Light";
+	height: 70px;
 }
 
 section.black .icon {
 	margin-right: 10px;
+}
+
+section.black.fixed {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 99;
 }
 
 .go-top {
