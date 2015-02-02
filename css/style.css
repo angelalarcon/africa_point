@@ -1828,8 +1828,8 @@ section.black.fixed {
 	font-family: "Bebas";
 	background-color: #2D2D2D;
 	color: #fff;
-	padding: 10px 20px;
-	font-size: 18px;
+	padding: 10px 15px;
+	font-size: 16px;
 }
 
 .banner-box .location {
@@ -2053,6 +2053,10 @@ section.white .banner-box {
 	section.blue-animals .blue-message-box {
 		font-size: 14px;
 		line-height: 20px;
+	}
+	.banner-box .title {
+		padding: 10px 10px;
+		font-size: 14px;
 	}
 }
 
